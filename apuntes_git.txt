@@ -27,3 +27,18 @@ git commit -am "Mensaje describiendo los cambios realizados"
 git log
 
 
+
+//PUBLICAR CAMBIOS A GITHUB
+
+1) crear repostorio en cuenta de GITHUB
+
+2) Enlazar repositorio local con servidor
+
+git remote add origin https://github.com/dexterx17/apuntes.git
+git branch -m Main
+git push -u origin Main
+
+//CLONAR UN REPOSITORIO 
+git clone url-repo nombre_carptea
+
+

@@ -1,0 +1,53 @@
+//Gestor de paquetes para PHP
+
+composer
+
+//instalar Laravel utilizando composer
+
+composer create-project laravel/laravel asistencia
+
+
+// comando laravel
+
+1)Crear las migraciones (tablas)
+php artisan make:migration create_personas_table
+accion_nombretable_entidad
+1.1)Correr las migraciones
+php artisan migrate
+1.2)Borrar y volver a correr las migraciones
+php artisan migrate:refresh
+
+2)Crear el modelo (Tabla mapeada)
+php artisan make:model Persona
+
+
+3)Crear el factory y el seeder (Datos ficticios)
+php artisan make:factory PersonaFactory -m Persona
+
+php artisn make:seeder PersonasSeeder
+
+Correr seeder
+php artisan db:seed --class="PersonasSeeder"
+
+4) Vulve a correr las migraciones y corre los seeders
+php artisan migrate:refresh --seed
+
+TODO LIST
+
+1) CREAR MIGRATION
+php artisan make:migration create_asistencias_personas_table
+1.1) CORRER MIGRACIONES 
+php artisan migrate
+2) CREAR MODELO
+php artisan make:model AsistenciaPersonal
+
+3) CREAR FACTORY
+php artisan make:factory AsistenciaPersonalFactory -m AsistenciaPersonal
+
+4) CREAR SEEDER 
+php artisan make:seeder AsistenciasPersonalSeeder
+
+4.1)CORRER SEEDER
+php artisan db:seed --class="AsistenciasPersonalSeeder"
+
+5) REALIZAR UN COMMIT CON LOS AVANCES
