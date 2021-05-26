@@ -7,18 +7,23 @@ git config --global user.name "Jaime Santana"
 git config --global user.email "sistemas@santana.ec"
 
 
-//INICIALIZAR UN REPOSITORIO
+//INICIALIZAR UN REPOSITORIO (1 sola vez)
 git init
 
+
+(Diariamente o más de acuerdo a los requisitos)
 //VERIFICAR ESTADO DE REPOSITORIO
 git status
 
 //AGREGAR CAMBIOS AL AREA DE STAGING
-
 git add .                   //Agrega todos los archivos cambiados
 git add apuntes_git.txt     //Agregar los archivos 1 por 1
 
+//REALIZAR UN COMMIT 
+git commit -am "Mensaje describiendo los cambios realizados"
 
 
+//HISTORIAL DE CAMBIOS DE UN PROYECTO
+git log
 
 
