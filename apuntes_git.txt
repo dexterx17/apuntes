@@ -1,0 +1,24 @@
+//CONFIGURAR DATOS DE USUARIO GIT
+
+//Configurar nombre
+git config --global user.name "Jaime Santana"
+
+//Configurar email
+git config --global user.email "sistemas@santana.ec"
+
+
+//INICIALIZAR UN REPOSITORIO
+git init
+
+//VERIFICAR ESTADO DE REPOSITORIO
+git status
+
+//AGREGAR CAMBIOS AL AREA DE STAGING
+
+git add .                   //Agrega todos los archivos cambiados
+git add apuntes_git.txt     //Agregar los archivos 1 por 1
+
+
+
+
+
